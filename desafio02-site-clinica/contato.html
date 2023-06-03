@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        span {
+            color: rgb(171, 19, 218);
+            cursor: pointer;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+
+            <!-- Aqui vai o seu menu -->
+
+            <ul>
+                <li><a href="index.html" class="btn">Home</a></li><br><br>
+                <li><a href="sobre.html" class="btn">Sobre</a></li><br><br>
+                <li><a href="horarios.html" class="btn">Horários</a></li><br><br>
+                <li><a href="#" class="btn">Contato</a></li><br><br>
+            </ul>
+
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./img/BANNER-CONTATO04.png" height="300" width="1020">
+            </div>
+
+            <div class="content">
+                <font face="'trebuchet MS'" color="lightgrape"><i> <b>
+                            <h1><span>.</span>Preencha os campos abaixo</h1></i></b></font>
+
+                <form onsubmit="" method="get" autocomplete="off" target="_blank">
+                    <fieldset>
+                        <legend><span>.</span>Seus dados para contato</legend>
+                        <label> Nome:</label> <input type="text" name="name"><br>
+                        <label> Email:</label> <input type="email" name="email"><br><br>
+                        <span>.</span>Meu PET é:<br>
+                        <input type="radio" name="pet" value="gato"> Gato
+                        <input type="radio" name="pet" value="gato"> Cachorro <br>
+                        <input type="checkbox" name="servicos[]" value="cirurgia"> Cirurgia
+                        <input type="checkbox" name="servicoes[]" value="tosa"> Tosa
+                        <input type="checkbox" name="servicoes[]" value="banho"> Banho <br>
+                    </fieldset><br>
+
+                    <select name="role">
+                        <option value="">Selecione o assunto</option>
+                        <option value="enviarCurriculo">Enviar Curriculo</option>
+                        <option value="agendarConsulta">Agendar Consulta para o PET</option>
+                    </select>
+                    <br>
+
+                    <textarea name="menssage" cols="130" rows="5"></textarea><br>
+                    <label><input type="reset" value="Limpar Formulário"></label>
+                    <label><input type="submit" value="Enviar"> </label>
+                </form>
+
+                <br>
+                <font face="'trebuchet MS'" color="lightgrape" align="left"><i> <b></b>
+                        <h1><span>.</span><i>Nossa localização</i></h1>
+                        <div class="endereco">
+
+                            <i><b>CONTATO WHATSAPP</b></i><br>
+                            <span>+55 45 3521 4438</span><br><br><br>
+
+                            <b><i>TELEFONE</i></b><br>
+                            <span>+55 45 3521 4400</span><br><br>
+                        </div>
+                        <div class="endereco">
+                            <b><i>E-MAIL</i></b><br>
+                            <span>contato@catarataspni.com.br</span><br><br>
+
+                            <b><i>ENDEREÇO</i></b><br>
+                            <span>BR 469, Km 18 – Parque Nacional do Iguaçu<br>
+                                Foz do Iguaçu / Paraná / Brasil<br>
+                                CEP: 85.859-899</span><br>
+                        </div>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7190.802316854153!2d-54.44620380499539!3d-25.691138709585008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6ea7339e748e7%3A0x1c851fea816c962f!2sCataratas%20do%20Igua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1685410245439!5m2!1spt-BR!2sbr"
+                            width="980" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+            <div class="footer">
+                ©2023 – Site Produzido por Eryon / RT- Exemplo da Silva CRMV-:00000
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

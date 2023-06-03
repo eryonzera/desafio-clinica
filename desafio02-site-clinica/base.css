@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(89, 127, 250);
+    padding: 150px 15px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:rgb(89, 127, 250);
+        padding: 10px;
+        text-align: right;
+        color: rgb(76, 79, 110);
+    
+}
+.btn{
+    padding: 3px 8px;
+    margin: 3px;
+    background:rgb(3, 55, 116);
+    color: rgb(255, 255, 255);
+    
+    border-radius: 3px;
+    
+    
+}
+.btn:hover{
+    background: rgb(255, 255, 255);
+    color:rgb(171, 19, 218) ;
+}
+a:link{
+    text-decoration: none;
+}
+.divisao{
+    display: inline;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.endereco {
+    display: inline-block;
+    flex-direction: column;
+    margin: 5px;
+    padding: 100px;
+}
